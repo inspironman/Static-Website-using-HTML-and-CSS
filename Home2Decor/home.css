@@ -1,0 +1,208 @@
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cairo:wght@200&family=Nunito:wght@200&family=Varela+Round&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+        /* font-family: 'Alfa Slab One', cursive;
+    
+        font-family: 'Cairo', sans-serif;
+    
+        font-family: 'Nunito', sans-serif;
+    
+        font-family: 'Varela Round', sans-serif; */
+    
+        body {
+            background-color: white;
+        }
+    
+        .remove-herf{
+            text-decoration: none;
+            color: #000;
+        }
+    
+        label {
+            font-weight: bold;
+        }
+    
+        .bg-white {
+            background-color: rgba(250, 235, 215, 0.5)
+        }
+    
+        nav {
+            background-color: rgba(250, 235, 215, 0.5);
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        section {
+            height: 550px;
+        }
+    
+        .f-ubuntu{
+            font-family: 'Ubuntu', sans-serif;
+        }
+    
+        .half-div {
+            display: flex;
+        }
+    
+        .p50 {
+            width: 50%;
+            height: 100%;
+        }
+    
+        .p65 {
+            width: 65%;
+            height: 100%;
+        }
+    
+        .p35 {
+            width: 35%;
+            height: 100%;
+        }
+    
+        .p100 {
+            width: 100%;
+            height: 100%;
+        }
+    
+        .center {
+            text-align: center;
+        }
+    
+        .left {
+            text-align: left;
+        }
+    
+        .heading {
+            font-size: 50px;
+        }
+    
+        .m15 {
+            margin: 15px;
+            padding-left: 20px;
+        }
+    
+        .m-lr-250 {
+            margin: 0px 250px;
+        }
+    
+        .square {
+            width: 84px;
+            height: 84px;
+            background-color: rgb(39, 93, 101);
+            transform: rotate(45deg);
+            margin-top: 18px;
+            margin-left: -42px;
+        }
+    
+        .pd25 {
+            padding: 25px;
+        }
+    
+        .pd35 {
+            padding: 35px;
+        }
+    
+        .w40 {
+            width: 85%;
+        }
+    
+        .logo {
+            font-size: 28px;
+            color: rgb(39, 93, 101);
+            font-family: 'Varela Round', sans-serif;
+        }
+    
+        .tag-line {
+            margin-top: 5px;
+            font-size: 12px;
+            font-family: 'Nunito', sans-serif;
+            color: rgb(252, 183, 72);
+            font-weight: bold;
+        }
+    
+        .nav-link {
+            margin-top: 15px;
+        }
+    
+        .nav-link>a {
+            padding: 10px;
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        .nav-link a:hover{
+            background-color: rgb(233, 227, 224);;
+            color: rgb(12, 12, 12);
+        }
+
+
+        .nav-link a:visited{
+            color: rgba(244, 138, 8, 0.382);
+        }
+        .heading-one {
+            font-size: 50px;
+            font-style: italic;
+        }
+    
+        .heading-two {
+            font-size: 25px;
+            text-align: left;
+        }
+    
+        .heading-3 {
+            font-size: 30px;
+        }
+    
+        .justy {
+            text-align: justify;
+            margin: 50px 75px;
+        }
+    
+        .db-color{
+            color: rgb(39, 93, 101);
+        }
+    
+        .gr-color{
+            color: gray;
+        }
+    
+        .f30 {
+            font-size: 30px;
+        }
+    
+        .f25 {
+            font-size: 25px;
+        }
+    
+        tr {
+            height: 30px;
+        }
+    
+        td {
+            padding: 10px;
+        }
+    
+        th {
+            background-color: rgb(39, 93, 101);
+            color: white;
+            padding: 10px;
+        }
+    
+        .odd {
+            background-color: rgb(166, 166, 166);
+        }
+    
+        .even {
+            background-color: rgb(221, 221, 221);
+        }
+
+        img {
+            border: 5px solid rgb(30, 79, 3);
+            border-radius: 5px;
+            /* padding: 5px;
+            width: 400px; */
+          }
+          
+          img:hover {
+            box-shadow: 4px 4px 4px 4px rgba(8, 5, 0, 0.5);
+          }
